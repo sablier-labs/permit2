@@ -9,7 +9,6 @@ import {SignatureVerification} from "../src/libraries/SignatureVerification.sol"
 import {AddressBuilder} from "./utils/AddressBuilder.sol";
 import {StructBuilder} from "./utils/StructBuilder.sol";
 import {AmountBuilder} from "./utils/AmountBuilder.sol";
-import {AllowanceTransfer} from "../src/AllowanceTransfer.sol";
 import {SignatureExpired, InvalidNonce} from "../src/PermitErrors.sol";
 import {IAllowanceTransfer} from "../src/interfaces/IAllowanceTransfer.sol";
 import {GasSnapshot} from "forge-gas-snapshot/GasSnapshot.sol";

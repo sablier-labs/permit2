@@ -4,7 +4,6 @@ pragma solidity ^0.8.17;
 import {Test} from "forge-std/Test.sol";
 
 import {SafeERC20, IERC20, IERC20Permit} from "openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol";
-import {DSTestPlus} from "solmate/src/test/utils/DSTestPlus.sol";
 import {MockERC20, ERC20} from "solmate/src/test/utils/mocks/MockERC20.sol";
 import {Permit2} from "../src/Permit2.sol";
 import {Permit2Lib} from "../src/libraries/Permit2Lib.sol";
